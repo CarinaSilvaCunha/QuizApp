@@ -1,0 +1,320 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/ghostLayout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:focusableInTouchMode="true">
+        <LinearLayout
+            android:id="@+id/LinearLayout01"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:padding="@dimen/padding">
+
+            <TextView
+                android:id="@+id/question01"
+                style="@style/question"
+                android:text="@string/question01" />
+
+            <EditText
+                android:id="@+id/answer01"
+                style="@style/answer"
+                android:hint="@string/hint" />
+
+            <TextView
+                android:id="@+id/question02"
+                style="@style/question"
+                android:layout_marginTop="@dimen/marginTop"
+                android:text="@string/question2" />
+
+            <EditText
+                android:id="@+id/answer02"
+                style="@style/answer"
+                android:hint="@string/hint" />
+
+            <TextView
+                android:id="@+id/question03"
+                style="@style/question"
+                android:layout_marginTop="@dimen/marginTop"
+                android:text="@string/question03" />
+
+            <RadioGroup
+                android:id="@+id/radioGroup"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <RadioButton
+                    android:id="@+id/question03_option01"
+                    style="@style/options"
+                    android:text="@string/question03_option01"
+                    android:onClick="clearFocusEditText"/>
+
+                <RadioButton
+                    android:id="@+id/question03_option02"
+                    style="@style/options"
+                    android:text="@string/question03_option02"
+                    android:onClick="clearFocusEditText"/>
+
+                <RadioButton
+                    android:id="@+id/question03_option03"
+                    style="@style/options"
+                    android:text="@string/question03_option03"
+                    android:onClick="clearFocusEditText"/>
+
+                <RadioButton
+                    android:id="@+id/question03_option04"
+                    style="@style/options"
+                    android:text="@string/question03_option04"
+                    android:onClick="clearFocusEditText"/>
+            </RadioGroup>
+
+            <TextView
+                android:id="@+id/question04"
+                style="@style/question"
+                android:layout_marginTop="@dimen/marginTop"
+                android:text="@string/question04" />
+
+            <RadioGroup
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <RadioButton
+                    android:id="@+id/question04_option01"
+                    style="@style/options"
+                    android:text="@string/question04_option01"
+                    android:onClick="clearFocusEditText"/>
+
+                <RadioButton
+                    android:id="@+id/question04_option02"
+                    style="@style/options"
+                    android:text="@string/question04_option02"
+                    android:onClick="clearFocusEditText"/>
+
+                <RadioButton
+                    android:id="@+id/question04_option03"
+                    style="@style/options"
+                    android:text="@string/question04_option03"
+                    android:onClick="clearFocusEditText"/>
+
+                <RadioButton
+                    android:id="@+id/question04_option04"
+                    style="@style/options"
+                    android:text="@string/question04_option04"
+                    android:onClick="clearFocusEditText"/>
+            </RadioGroup>
+
+            <TextView
+                android:id="@+id/question05"
+                style="@style/question"
+                android:layout_marginTop="@dimen/marginTop"
+                android:text="@string/question05" />
+
+            <RadioGroup
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <RadioButton
+                    android:id="@+id/question05_option01"
+                    style="@style/options"
+                    android:text="@string/question05_option01"
+                    android:onClick="clearFocusEditText"/>
+
+                <RadioButton
+                    android:id="@+id/question05_option02"
+                    style="@style/options"
+                    android:text="@string/question05_option02"
+                    android:onClick="clearFocusEditText"/>
+
+                <RadioButton
+                    android:id="@+id/question05_option03"
+                    style="@style/options"
+                    android:text="@string/question05_option03"
+                    android:onClick="clearFocusEditText"/>
+
+                <RadioButton
+                    android:id="@+id/question05_option04"
+                    style="@style/options"
+                    android:text="@string/question05_option04"
+                    android:onClick="clearFocusEditText"/>
+            </RadioGroup>
+
+            <TextView
+                android:id="@+id/question06"
+                style="@style/question"
+                android:layout_marginTop="@dimen/marginTop"
+                android:text="@string/question06" />
+
+            <RadioGroup
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <RadioButton
+                    android:id="@+id/question06_option01"
+                    style="@style/options"
+                    android:text="@string/question06_option01"
+                    android:onClick="clearFocusEditText"/>
+
+                <RadioButton
+                    android:id="@+id/question06_option02"
+                    style="@style/options"
+                    android:text="@string/question06_option02"
+                    android:onClick="clearFocusEditText"/>
+
+                <RadioButton
+                    android:id="@+id/question06_option03"
+                    style="@style/options"
+                    android:text="@string/question06_option03"
+                    android:onClick="clearFocusEditText"/>
+
+                <RadioButton
+                    android:id="@+id/question06_option04"
+                    style="@style/options"
+                    android:text="@string/question06_option04"
+                    android:onClick="clearFocusEditText"/>
+            </RadioGroup>
+
+            <TextView
+                android:id="@+id/question07"
+                style="@style/question"
+                android:layout_marginTop="@dimen/marginTop"
+                android:text="@string/question07" />
+
+            <CheckBox
+                android:id="@+id/question07_option01"
+                style="@style/options"
+                android:text="@string/question07_option01"
+                android:onClick="clearFocusEditText"/>
+
+            <CheckBox
+                android:id="@+id/question07_option02"
+                style="@style/options"
+                android:text="@string/question07_option02"
+                android:onClick="clearFocusEditText"/>
+
+            <CheckBox
+                android:id="@+id/question07_option03"
+                style="@style/options"
+                android:text="@string/question07_option03"
+                android:onClick="clearFocusEditText"/>
+
+            <CheckBox
+                android:id="@+id/question07_option04"
+                style="@style/options"
+                android:text="@string/question07_option04"
+                android:onClick="clearFocusEditText"/>
+
+            <TextView
+                android:id="@+id/question08"
+                style="@style/question"
+                android:layout_marginTop="@dimen/marginTop"
+                android:text="@string/question08" />
+            <RadioGroup
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <RadioButton
+                    android:id="@+id/question08_option01"
+                    style="@style/options"
+                    android:text="@string/question08_option01"
+                    android:onClick="clearFocusEditText"/>
+
+                <RadioButton
+                    android:id="@+id/question08_option02"
+                    style="@style/options"
+                    android:text="@string/question08_option02"
+                    android:onClick="clearFocusEditText"/>
+
+                <RadioButton
+                    android:id="@+id/question08_option03"
+                    style="@style/options"
+                    android:text="@string/question08_option03"
+                    android:onClick="clearFocusEditText"/>
+
+                <RadioButton
+                    android:id="@+id/question08_option04"
+                    style="@style/options"
+                    android:text="@string/question08_option04"
+                    android:onClick="clearFocusEditText"/>
+            </RadioGroup>
+
+            <TextView
+                android:id="@+id/question09"
+                style="@style/question"
+                android:layout_marginTop="@dimen/marginTop"
+                android:text="@string/question09" />
+
+            <CheckBox
+                android:id="@+id/question09_option01"
+                style="@style/options"
+                android:text="@string/question09_option01"
+                android:onClick="clearFocusEditText"/>
+
+            <CheckBox
+                android:id="@+id/question09_option02"
+                style="@style/options"
+                android:text="@string/question09_option02"
+                android:onClick="clearFocusEditText"/>
+
+            <CheckBox
+                android:id="@+id/question09_option03"
+                style="@style/options"
+                android:text="@string/question09_option03"
+                android:onClick="clearFocusEditText"/>
+
+            <CheckBox
+                android:id="@+id/question09_option04"
+                style="@style/options"
+                android:text="@string/question09_option04"
+                android:onClick="clearFocusEditText"/>
+
+            <TextView
+                android:id="@+id/question10"
+                style="@style/question"
+                android:layout_marginTop="@dimen/marginTop"
+                android:text="@string/question10"/>
+
+            <RadioGroup
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <RadioButton
+                    android:id="@+id/question10_option01"
+                    style="@style/options"
+                    android:text="@string/question10_option01"
+                    android:onClick="clearFocusEditText"/>
+
+                <RadioButton
+                    android:id="@+id/question10_option02"
+                    style="@style/options"
+                    android:text="@string/question10_option02"
+                    android:onClick="clearFocusEditText"/>
+
+                <RadioButton
+                    android:id="@+id/question10_option03"
+                    style="@style/options"
+                    android:text="@string/question10_option03"
+                    android:onClick="clearFocusEditText"/>
+
+                <RadioButton
+                    android:id="@+id/question10_option04"
+                    style="@style/options"
+                    android:text="@string/question10_option04"
+                    android:onClick="clearFocusEditText"/>
+            </RadioGroup>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:gravity="center_horizontal">
+
+                <Button
+                    android:id="@+id/submitButton"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:text="@string/submitButton"
+                    android:textSize="@dimen/submitButton"
+                    android:onClick="quizResultCount"/>
+            </LinearLayout>
+        </LinearLayout>
+</ScrollView>
